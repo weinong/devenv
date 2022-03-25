@@ -73,6 +73,10 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+if command -v kubectl &> /dev/null
+  source <(kubectl completion zsh)
+fi
+
 
 # User configuration
 alias vim=nvim
