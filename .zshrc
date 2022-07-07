@@ -69,7 +69,7 @@ DEFAULT_USER=`whoami`
 plugins=(
 	git
 	macos
-	#zsh-autosuggestions
+	zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -81,7 +81,9 @@ fi
 # User configuration
 alias vim=nvim
 alias vi=nvim
+alias lg=lazygit
 export EDITOR=nvim
 export GOPATH=${HOME}/go
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=240"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
