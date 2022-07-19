@@ -5,7 +5,7 @@ development environment
 curl -sSL https://raw.githubusercontent.com/weinong/devenv/main/install.sh | sh
 
 cd ~
-mkdir -p .config
+mkdir -p ~/.config
 
-git clone https://github.com/weinong/nvim.git
+git clone https://github.com/weinong/nvim.git ~/.config/nvim
 ```
