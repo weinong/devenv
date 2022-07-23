@@ -10,6 +10,7 @@ brew install fzf
 $(brew --prefix)/opt/fzf/install
 brew install fd
 brew install go
+brew install zsh-autosuggestions.zsh
 
 #brew install --casks postman docker
 brew install jesseduffield/lazygit/lazygit
