@@ -14,3 +14,9 @@ brew install jesseduffield/lazygit/lazygit
 
 brew tap homebrew/cask-fonts
 brew install --cask font-hack-nerd-font
+
+# install dlv for go debugger
+if command -v go &> /dev/null
+then
+  go install github.com/go-delve/delve/cmd/dlv@latest
+fi
