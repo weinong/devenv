@@ -6,6 +6,7 @@ antigen use oh-my-zsh
 
 antigen bundle git
 antigen bundle macos
+antigen bundle Aloxaf/fzf-tab
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-autosuggestions
 
