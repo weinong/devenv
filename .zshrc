@@ -1,4 +1,5 @@
-source /opt/homebrew/share/antigen/antigen.zsh
+eval "$(brew shellenv)"
+source "$(brew --prefix)/share/antigen/antigen.zsh"
 
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
