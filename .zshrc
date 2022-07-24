@@ -30,13 +30,15 @@ alias l='exa'
 alias la='exa -a'
 alias ll='exa -lah'
 alias ls='exa --color=auto'
-alias cat='bat'
+alias cat='bat --style=plain'
 
 export EDITOR=nvim
 export GOPATH=${HOME}/go
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=240"
 export DEFAULT_USER=`whoami`
 export DISABLE_MAGIC_FUNCTIONS="true"
+export FZF_DEFAULT_COMMAND='fd --type f'
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 [ -f ~/.aks.zsh ] && source ~/.aks.zsh
