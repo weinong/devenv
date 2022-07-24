@@ -32,3 +32,4 @@ export DEFAULT_USER=`whoami`
 export DISABLE_MAGIC_FUNCTIONS="true"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+[ -f ~/.aks.zsh ] && source ~/.aks.zsh
