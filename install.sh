@@ -10,6 +10,8 @@ brew install fzf
 $(brew --prefix)/opt/fzf/install
 brew install fd
 brew install go
+brew install exa
+brew install bat
 brew install antigen
 brew install git-delta
 
