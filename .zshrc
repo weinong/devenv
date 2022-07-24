@@ -29,6 +29,7 @@ alias l='exa'
 alias la='exa -a'
 alias ll='exa -lah'
 alias ls='exa --color=auto'
+alias cat='bat'
 
 export EDITOR=nvim
 export GOPATH=${HOME}/go
