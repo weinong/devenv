@@ -23,4 +23,4 @@
   lineNumber = true
 
 [push]
-	default = current
+  default = current
