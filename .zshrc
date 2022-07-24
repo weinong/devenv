@@ -11,7 +11,7 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-autosuggestions
 
 # Load the theme.
-#antigen theme robbyrussell
+# requires Solarized Dark color scheme
 antigen theme agnoster
 
 # Tell Antigen that you're done.
