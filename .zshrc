@@ -25,6 +25,11 @@ fi
 alias vim=nvim
 alias vi=nvim
 alias lg=lazygit
+alias l='exa'
+alias la='exa -a'
+alias ll='exa -lah'
+alias ls='exa --color=auto'
+
 export EDITOR=nvim
 export GOPATH=${HOME}/go
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=240"
