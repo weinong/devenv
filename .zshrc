@@ -34,6 +34,7 @@ alias cat='bat --style=plain'
 
 export EDITOR=nvim
 export GOPATH=${HOME}/go
+export PATH="${PATH}:${GOPATH}/bin"
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=240"
 export DEFAULT_USER=`whoami`
 export DISABLE_MAGIC_FUNCTIONS="true"
