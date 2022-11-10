@@ -19,8 +19,10 @@ brew install npm
 #brew install --casks postman docker
 brew install jesseduffield/lazygit/lazygit
 
-brew tap homebrew/cask-fonts
-brew install --cask font-hack-nerd-font
+if [[ $OSTYPE == 'darwin'* ]]; then
+  brew tap homebrew/cask-fonts
+  brew install --cask font-hack-nerd-font
+fi
 
 # install dlv for go debugger
 if command -v go &> /dev/null
