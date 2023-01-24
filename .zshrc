@@ -16,6 +16,7 @@ antigen bundle macos
 antigen bundle Aloxaf/fzf-tab
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-autosuggestions
+antigen bundle jeffreytse/zsh-vi-mode
 
 # Load the theme.
 # requires Solarized Dark color scheme
