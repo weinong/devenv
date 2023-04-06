@@ -16,6 +16,7 @@ brew install antigen
 brew install git-delta
 brew install npm
 brew install yq
+brew install chruby ruby-install
 
 #brew install --casks postman docker
 brew install jesseduffield/lazygit/lazygit
