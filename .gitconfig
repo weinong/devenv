@@ -24,3 +24,26 @@
 
 [push]
   default = current
+
+[user]
+    email = weinong@outlook.com
+    name = Weinong Wang
+    signingkey = C5C678C298463D9F
+
+[credential]
+    helper = /mnt/c/Program\\ Files/Git/mingw64/bin/git-credential-manager.exe
+
+[init]
+    defaultBranch = main
+
+[credential "https://dev.azure.com"]
+    useHttpPath = true
+
+[commit]
+    gpgsign = true
+
+[tag]
+    gpgsign = true
+
+[gpg]
+    program = /mnt/c/Program Files (x86)/GnuPG/bin/gpg.exe
